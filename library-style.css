@@ -1,0 +1,19 @@
+h1{
+color:white;
+text-align:center;
+font-family:"monotype corsiva";
+font-size:50px;
+text-shadow:3px 3px 1px black;
+}
+
+body{
+background-color:#39FF39;
+}
+
+td{
+text-align:top;
+}
+
+table{
+background-color:white;
+}

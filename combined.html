@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Books-listed</title>
+
+<link rel="stylesheet" type="text/css" href="library-style.css"/>
+
+<script type="text/javascript" src="lib-func.js" />
+<script language="javascript">
+</script>
+</head>
+
+<body onload="putit()">
+<table width="100%" border="1" cellspacing="0" cellpadding="25">
+
+<!--<tr>
+
+<td colspan="3">
+<center>
+<h1>LibraryLife</h1>
+</center>
+</td>
+
+</tr>
+-->
+
+<tr>
+
+<td colspan="2">
+<h2>Here, borrowing of books can be scheduled.</h2>
+This is the list of books
+<br><br>
+<table id="listtab" border="1" cellpadding="5" cellspacing="0">
+</table>
+<br><br>
+<!--
+<input type="button" value="Make Changes" onclick="listchange()" />
+-->
+<input type="button" value="Hold these books for me!" onclick="rent()" />
+<p id="pararent1"></p>
+<table id="rnt" cellpadding="5" cellspacing="0" border="2"></table>
+<p id="pararent2"></p>
+</td>
+
+<td width="225" rowspan="2" valign="top">
+<fieldset>
+<legend><h4>Sign-In Status</h4></legend>
+<p id="sigstat">Not Signed In</p>
+<br>
+</fieldset>
+<br>
+<fieldset>
+<legend><h3 id="sighead">Sign-In</h3></legend>
+<label>Username : </label>
+<br>
+<input type="text" id="sname" />
+<br><br>
+<label>Password : </label>
+<br>
+<input type="password" id="spass" />
+<br><br>
+<p id="sigbut"><input type="button" value="Sign-In" onclick="sign()" /></p>
+</fieldset>
+</td>
+</tr>
+<tr>
+
+<td id="retcelladded">
+<h2>Here, the return of borrowed books can be scheduled.</h2>
+<br>
+<label>Enter Number of Books to be returned : </label><input type="number" id="retbnum" /><input type="button" value="Next" onclick="retbooks()"/>
+<p id="pararet1"></p>
+<table id="rettab" border="1" cellpadding="5" cellspacing="0">
+</table>
+<br><br>
+<!--
+<input type="button" value="I want to make changes" onclick="listdef()" />
+<input type="button" value="Yes, I want to return these books." onclick="returnb()" />
+-->
+<p id="pararetrn1"></p>
+<table id="rnt" cellpadding="5" cellspacing="0" border="2"></table>
+<p id="parartrn2"></p>
+
+</td>
+
+<td onload="retguidance()">
+<p id="rettabpara"></p>
+<table id="retguide" border="1" cellspacing="0">
+</table>
+</td>
+
+</tr>
+</table>
+</body>
+</html>
