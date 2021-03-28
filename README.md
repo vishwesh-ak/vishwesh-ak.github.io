@@ -1,6 +1,6 @@
 # LibraryLife
 
-#### Projection Submission by Vishwesh Anantha Krishnan, IIIT Kottayam
+Projection Submission by Vishwesh Anantha Krishnan, IIIT Kottayam
 
 ## Inspiration
 Due to the Coronavirus, many people find themselves stuck inside their house. Reading is an excellent solution to alleviate boredom. However, having multiple people accessing a single library is quite undesirable nowadays. This website removes that problem.
